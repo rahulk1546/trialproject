@@ -14,7 +14,7 @@ const validateForm = () => {
   const errors = {};
 
   const nameRegex = /^[a-zA-Z]+$/;
-  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,8}$/;
+  const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,8}$/;
   const passwordUpperCase = /[A-Z]/;
   const passwordLowerCase = /[a-z]/;
   const passwordNumber = /[0-9]/;
